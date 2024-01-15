@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+body {
+  background-color: #121212;
+}
+
+/* Grid Layout */
+.parent {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.div2 {
+  color: #121212;
+  grid-area: 2 / 1 / 3 / 2;
+}
+.div3 {
+  margin-top: -25px;
+  grid-area: 3 / 1 / 4 / 2;
+  margin-bottom: 25px;
+}
+.div4 {
+  grid-area: 4 / 1 / 5 / 2;
+  margin-bottom: 25px;
+}
+.div5 {
+  grid-area: 5 / 1 / 6 / 2;
+}
+
+/* Misc Styling */
+
+textarea,
+input {
+  outline: none;
+}
+
+h1,
+label,
+input,
+button,
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+}
+label,
+input {
+  color: #B3B3B3;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h1,
+p {
+  color: #E0E0E0;
+}
+
+input {
+  border-radius: 25px;
+  padding-left: 10px;
+  background-color: #1E1E1E;
+}
+
+button {
+  color: #E0E0E0;
+  border-radius: 25px;
+  border-width: 2px;
+  border-color: #B3B3B3;
+  background-color: #121212;
+  height: 50px;
+  width: 150px;
+}
